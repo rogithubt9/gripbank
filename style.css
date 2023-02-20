@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header{
+    display: flexbox;
+    height: 50px;
+    width: 100%;
+    background-color:black;
+}
+
+.logo{
+    display: flex;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.menu{
+    float: right;
+    
+    height: 50px;
+    
+}
+
+.menu ul{
+    display: flex;
+    
+}
+
+.menu ul li{
+    padding: 15px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+
+
+.lin{
+    color: aliceblue;
+ text-decoration: none;
+    
+}
+
+
+.cons{
+    width: auto;
+    height: 600px;
+}
+
+.salutation{
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.p1{
+    font-size: 30px;
+    padding-left: 200px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
